@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchByReptile.reptileLengthFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/choose_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/filter_views"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:paddingBottom="20dp"
+        android:text="@string/filter2" />
+
+    <Button
+        android:id="@+id/reptile_length_option_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smaller_than_15cm" />
+
+    <Button
+        android:id="@+id/reptile_length_option_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/larger_than_15cm_but_smaller_than_30cm" />
+
+    <Button
+        android:id="@+id/reptile_length_option_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/larger_than_30cm" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/species_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back"/>
+
+        <Button
+            android:id="@+id/species_skip_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Skip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".SearchByBird.birdHeadColourFragment">
+
+    <!-- DONE: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/choose_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/choose_an_head_colour_of_the_bird_you_saw" />
+
+    <TextView
+        android:id="@+id/filter_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:paddingBottom="20dp"
+        android:text="@string/filter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <Button
+            android:id="@+id/bird_colour_option_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:shadowColor="@color/black"
+            android:text="@string/blue"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/bird_colour_option_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Black"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/bird_colour_option_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Red"
+            android:textColor="@color/red" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <Button
+            android:id="@+id/bird_colour_option_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="White"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bird_colour_option_grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Grey"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/bird_colour_option_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Yellow"
+            android:textColor="@color/yellow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/bird_colour_option_brown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Brown"
+            android:textColor="@color/brown" />
+
+        <Button
+            android:id="@+id/bird_colour_option_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Orange"
+            android:textColor="@color/orange" />
+
+        <Button
+            android:id="@+id/bird_colour_option_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:text="Green"
+            android:textColor="@color/green" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/species_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/species_skip_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Skip" />
+    </LinearLayout>
+</LinearLayout>

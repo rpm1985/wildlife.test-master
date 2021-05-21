@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/language_en"
+        android:title="@string/english"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/language_cy"
+        android:title="@string/welsh"
+        app:showAsAction="never"/>
+
+    <!--<item-->
+        <!--android:id="@+id/btn_notification"-->
+        <!--android:layout_width="190dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="#04ea00"-->
+        <!--android:textColor="#000000"-->
+        <!--android:title="@string/notifications"-->
+        <!--android:hint="@string/notifications"/>-->
+</menu>
